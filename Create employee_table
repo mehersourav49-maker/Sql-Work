@@ -1,0 +1,11 @@
+CREATE TABLE employee (
+    emp_no VARCHAR(4),
+    emp_name VARCHAR(10),
+    job VARCHAR(10),
+    doj DATE,
+    gender VARCHAR(6),
+    salary DECIMAL(10,2),
+    commission DECIMAL(10,2),
+    dept_no INT(3),
+    address VARCHAR(30)
+);
