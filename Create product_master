@@ -1,0 +1,10 @@
+CREATE TABLE product_master (
+    product_no VARCHAR(6),
+    description VARCHAR(20),
+    profit_percent DECIMAL(4,2),
+    unit_measure VARCHAR(10),
+    qty_on_hand INT,
+    reorder_lvl INT,
+    sell_price DECIMAL(10,2),
+    cost_price DECIMAL(10,2)
+);
