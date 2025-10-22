@@ -1,0 +1,11 @@
+INSERT INTO employee VALUES
+('E001', 'Ravi', 'Manager', '2019-03-15', 'Male', 95000, 1500, 110, 'Delhi'),
+('E002', 'Sana', 'Clerk', '2021-07-12', 'Female', 45000, NULL, 120, 'Chennai'),
+('E003', 'Raj', 'Analyst', '2023-05-01', 'Male', 85000, 2000, 130, 'Mumbai'),
+('E004', 'Neha', 'Sales', '2018-11-20', 'Female', 70000, 1000, 110, 'Kolkata'),
+('E005', 'Karan', 'Manager', '2020-01-05', 'Male', 120000, 3000, 130, 'Delhi'),
+('E006', 'Sara', 'Sales', '2017-08-09', 'Female', 60000, NULL, 110, 'Pune'),
+('E007', 'Rohit', 'Clerk', '2022-04-10', 'Male', 30000, 500, 120, 'Jaipur'),
+('E008', 'Anil', 'Analyst', '2020-06-22', 'Male', 80000, NULL, 130, 'Mumbai'),
+('E009', 'Sneha', 'Manager', '2019-12-30', 'Female', 95000, 1000, 110, 'Hyderabad'),
+('E010', 'Sagar', 'Sales', '2023-09-05', 'Male', NULL, NULL, 120, 'Bangalore');
