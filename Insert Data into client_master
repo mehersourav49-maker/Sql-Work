@@ -1,0 +1,9 @@
+INSERT INTO client_master 
+(client_no, name, address1, address2, city, state, pincode, bal_due)
+VALUES
+('C0001', 'Ivan', '', '', 'Bombay', 'Maharashtra', 400054, 15000.00),
+('C0002', 'Vandana', '', '', 'Madras', 'Tamilnadu', 780001, 0.00),
+('C0003', 'Pramada', '', '', 'Bombay', 'Maharashtra', 400057, 5000.00),
+('C0004', 'Basu', '', '', 'Bombay', 'Maharashtra', 400056, 0.00),
+('C0005', 'Ravi', '', '', 'Delhi', 'Delhi', 100001, 2000.00),
+('C0006', 'Rukmini', '', '', 'Bombay', 'Maharashtra', 400050, 0.00);
