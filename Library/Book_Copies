@@ -1,0 +1,12 @@
+CREATE TABLE Book_Copies (
+    Book_id INT,
+    Program_id INT,
+    No_of_copies INT,
+    FOREIGN KEY (Book_id) REFERENCES Book(Book_id)
+);
+
+INSERT INTO Book_Copies VALUES
+(101, 1, 5),
+(102, 2, 3),
+(103, 3, 4),
+(104, 1, 2);
