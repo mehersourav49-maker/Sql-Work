@@ -1,0 +1,12 @@
+CREATE TABLE Book (
+    Book_id INT PRIMARY KEY,
+    Title VARCHAR(100),
+    Publisher_name VARCHAR(100),
+    Pub_year YEAR
+);
+
+INSERT INTO Book VALUES
+(101, 'Database Systems', 'Pearson', 2016),
+(102, 'Operating Systems', 'McGraw Hill', 2017),
+(103, 'Computer Networks', 'Pearson', 2015),
+(104, 'Data Science Essentials', 'O\'Reilly', 2018);
