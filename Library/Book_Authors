@@ -1,0 +1,11 @@
+CREATE TABLE Book_Authors (
+    Book_id INT,
+    Author_name VARCHAR(100),
+    FOREIGN KEY (Book_id) REFERENCES Book(Book_id)
+);
+
+INSERT INTO Book_Authors VALUES
+(101, 'Ramez Elmasri'),
+(102, 'Abraham Silberschatz'),
+(103, 'Andrew S. Tanenbaum'),
+(104, 'Jake VanderPlas');
