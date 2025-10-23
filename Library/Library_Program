@@ -1,0 +1,10 @@
+CREATE TABLE Library_Program (
+    Program_id INT PRIMARY KEY,
+    Program_name VARCHAR(100),
+    Address VARCHAR(150)
+);
+
+INSERT INTO Library_Program VALUES
+(1, 'B.Sc Computer Science', 'Block A'),
+(2, 'BCA', 'Block B'),
+(3, 'MCA', 'Block C');
