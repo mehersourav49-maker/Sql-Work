@@ -1,0 +1,16 @@
+CREATE TABLE Book_Lending (
+    Book_id INT,
+    Program_id INT,
+    Card_no INT,
+    Date_out DATE,
+    Due_date DATE,
+    FOREIGN KEY (Book_id) REFERENCES Book(Book_id)
+);
+
+INSERT INTO Book_Lending VALUES
+(101, 1, 1001, '2017-01-12', '2017-02-12'),
+(102, 2, 1002, '2017-02-20', '2017-03-20'),
+(103, 3, 1001, '2017-04-05', '2017-05-05'),
+(104, 1, 1003, '2017-05-10', '2017-06-10'),
+(101, 1, 1001, '2017-06-15', '2017-07-15'),
+(102, 2, 1002, '2017-01-25', '2017-02-25');
