@@ -1,0 +1,10 @@
+CREATE TABLE Publisher (
+    Name VARCHAR(100) PRIMARY KEY,
+    Address VARCHAR(150),
+    Phone VARCHAR(15)
+);
+
+INSERT INTO Publisher VALUES
+('Pearson', 'New Delhi', '9876543210'),
+('McGraw Hill', 'Mumbai', '9856237410'),
+('O\'Reilly', 'Bangalore', '9988776655');
